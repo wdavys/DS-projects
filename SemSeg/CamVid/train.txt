@@ -1,0 +1,21 @@
+/SegNet/CamVid/train/0001TP_006690.png /SegNet/CamVid/trainannot/0001TP_006690.png
+/SegNet/CamVid/train/0001TP_006720.png /SegNet/CamVid/trainannot/0001TP_006720.png
+/SegNet/CamVid/train/0001TP_006750.png /SegNet/CamVid/trainannot/0001TP_006750.png
+/SegNet/CamVid/train/0001TP_006780.png /SegNet/CamVid/trainannot/0001TP_006780.png
+/SegNet/CamVid/train/0001TP_006810.png /SegNet/CamVid/trainannot/0001TP_006810.png
+/SegNet/CamVid/train/0001TP_006840.png /SegNet/CamVid/trainannot/0001TP_006840.png
+/SegNet/CamVid/train/0001TP_006870.png /SegNet/CamVid/trainannot/0001TP_006870.png
+/SegNet/CamVid/train/0001TP_006900.png /SegNet/CamVid/trainannot/0001TP_006900.png
+/SegNet/CamVid/train/0001TP_006930.png /SegNet/CamVid/trainannot/0001TP_006930.png
+/SegNet/CamVid/train/0001TP_006960.png /SegNet/CamVid/trainannot/0001TP_006960.png
+/SegNet/CamVid/train/0001TP_006990.png /SegNet/CamVid/trainannot/0001TP_006990.png
+/SegNet/CamVid/train/0001TP_007020.png /SegNet/CamVid/trainannot/0001TP_007020.png
+/SegNet/CamVid/train/0001TP_007050.png /SegNet/CamVid/trainannot/0001TP_007050.png
+/SegNet/CamVid/train/0001TP_007080.png /SegNet/CamVid/trainannot/0001TP_007080.png
+/SegNet/CamVid/train/0001TP_007110.png /SegNet/CamVid/trainannot/0001TP_007110.png
+/SegNet/CamVid/train/0001TP_007140.png /SegNet/CamVid/trainannot/0001TP_007140.png
+/SegNet/CamVid/train/0001TP_007170.png /SegNet/CamVid/trainannot/0001TP_007170.png
+/SegNet/CamVid/train/0001TP_007200.png /SegNet/CamVid/trainannot/0001TP_007200.png
+/SegNet/CamVid/train/0001TP_007230.png /SegNet/CamVid/trainannot/0001TP_007230.png
+/SegNet/CamVid/train/0001TP_007260.png /SegNet/CamVid/trainannot/0001TP_007260.png
+
