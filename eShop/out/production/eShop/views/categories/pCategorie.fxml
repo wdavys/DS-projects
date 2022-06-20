@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="527.0" styleClass="presentation" stylesheets="@../../resources/css/styles.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.categories.PCategorieController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="33.0" prefHeight="178.0" prefWidth="501.0" style="-fx-background-color: white; -fx-background-radius: 50; -fx-border-radius: 50;">
+         <children>
+            <VBox alignment="CENTER" layoutY="25.0" prefHeight="194.0" prefWidth="501.0">
+               <children>
+                  <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="331.0" styleClass="client-code">
+                     <children>
+                        <Text fx:id="idCat" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Categorie" StackPane.alignment="CENTER">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="20.0" />
+                     </VBox.margin>
+                  </StackPane>
+                  <GridPane alignment="CENTER" maxWidth="-Infinity" prefHeight="31.0" prefWidth="300.0" style="-fx-background-color: transparent;">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="10.0" prefWidth="147.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="365.0" minWidth="10.0" prefWidth="143.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="162.0" text="Nom" textAlignment="CENTER" textFill="#4e4e4e">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="nomCat" alignment="CENTER" prefHeight="25.0" prefWidth="192.0" text="&lt;ValeurChamp&gt;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <opaqueInsets>
+                        <Insets left="5.0" />
+                     </opaqueInsets>
+                  </GridPane>
+                  <HBox alignment="CENTER" spacing="150.0">
+                     <children>
+                        <Button fx:id="btnModify" mnemonicParsing="false" onAction="#handleBtnModifyClick" prefHeight="35.0" prefWidth="116.0" styleClass="btn-modify" text="Modifier" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <Button fx:id="btnExit" layoutX="453.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleBtnExitClick" prefHeight="11.0" prefWidth="18.0" styleClass="btn-exit" text="X">
+               <font>
+                  <Font name="System Bold" size="8.0" />
+               </font>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow height="12.0" offsetX="3.0" offsetY="3.0" radius="7.75" />
+         </effect>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="5.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>
